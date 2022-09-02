@@ -1,9 +1,7 @@
+import NameEntityRecognition from "./NameEntityRecognition";
+
 function App() {
-  return (
-    <div>
-      <h1>Name Entity Recognition Frontend</h1>
-    </div>
-  );
+  return <NameEntityRecognition />;
 }
 
 export default App;

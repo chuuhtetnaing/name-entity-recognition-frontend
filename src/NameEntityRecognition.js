@@ -30,7 +30,7 @@ function NameEntityRecognition() {
         .filter((sent) => !!sent.length)
     );
     axios
-      .post("http://127.0.0.1:8000/ner", { text: inputText })
+      .post("http://chuuhtetnaing.ddns.net:8000/ner", { text: inputText })
       .then((res) => res.data)
       .then((data) => setResult(data))
       .catch(function (error) {
